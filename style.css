@@ -11,6 +11,8 @@ a {
     text-decoration: none;
 }
 
+/*NAVBAR*/
+
 nav {
     
     display: flex;
@@ -47,6 +49,58 @@ nav a:hover {
     color: #0065fc;
 }
 
+/*BODY*/
+
+.wrapper {
+    padding: 0 2rem;
+}
+
+.wrapper h1, .wrapper p{
+    margin-bottom: 1rem;
+}
+
+/*SEARCH-FORM*/
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form * {
+    padding: 1rem 1.5rem;
+}
+
+.search-form i {
+    padding: 0.75rem 0.6rem;
+    background-color: lightgrey;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.search-form input {
+    padding: 1.4rem;
+    flex-basis: 16rem;
+    border: 1px solid lightgrey;
+}
+
+.search-form input::placeholder {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.search-form button {
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0 1rem 1rem 0;
+    font-weight: bold;
+    padding: 1.3rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    
+    
+
+}
     
 
 
@@ -70,4 +124,4 @@ nav a:hover {
 
 
 
-/*Reservia 08 Headings and Search Form : */
+/*Reservia 10 Search Form Padding and Git Push : 2:15*/
