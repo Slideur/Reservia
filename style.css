@@ -97,9 +97,14 @@ nav a:hover {
     padding: 1.3rem 1.5rem;
     border: none;
     cursor: pointer;
+    opacity: 0.8;
+    transition: transform 200ms;
     
-    
+}
 
+.search-form button:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
     
 
@@ -124,4 +129,4 @@ nav a:hover {
 
 
 
-/*Reservia 10 Search Form Padding and Git Push : 2:15*/
+/*Reservia 11 Search Form Animation : 2:15*/
